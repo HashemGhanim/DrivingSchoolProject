@@ -15,8 +15,10 @@ Tools used in the project :
 
 👉 Backend tools:  Node.js / Express , MySql
 
+### ER Digram :
 ![340285025_759502589140721_6067613270400782514_n](https://github.com/HashemGhanim/DrivingSchoolProject/assets/72875896/ae6294a4-9cd4-4218-9c0a-c91755702000)
 
+---
 ## Home Page 
 
 <img width="1440" alt="Screenshot 2023-05-30 at 11 21 46" src="https://github.com/HashemGhanim/DrivingSchoolProject/assets/72875896/d3dbd35c-aafc-4699-8a02-ecf1baa9b061">
