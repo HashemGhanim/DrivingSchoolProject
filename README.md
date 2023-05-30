@@ -15,8 +15,22 @@ Tools used in the project :
 
 👉 Backend tools:  Node.js / Express , MySql
 
-### ER Digram :
+## ER Digram :
 ![340285025_759502589140721_6067613270400782514_n](https://github.com/HashemGhanim/DrivingSchoolProject/assets/72875896/ae6294a4-9cd4-4218-9c0a-c91755702000)
+
+## Restrictions :
+
+### Student :
+
+Student can see his instructors who subscribe with , lessons appointment with his instructors ,the tests given by him , his information and finally can subscribe with one or more instructors.
+
+### Instructor :
+
+Instructor  can see his students who subscribed with him , lessons appointment with his students , his information and finally can add appointment to his students.
+
+### Owner (HR) :
+
+HR of school can see his information , all students , all instructors , all appointments , all tests for all students  , and finally can add tests result for students (fail , success) .
 
 ---
 ## Home Page 
