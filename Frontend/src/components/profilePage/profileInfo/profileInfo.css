@@ -1,0 +1,8 @@
+@media (max-width : 988px){
+    #divOfMainImg {
+        max-width: 30%;
+    }
+    #divOfMainImg img {
+        max-width: 30%;
+    }
+}

@@ -1,0 +1,15 @@
+#globalDiv {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+}
+.hello1 {
+    background-image: linear-gradient(#afc4cb88, #a8dced9b) , url("./PHOTO-2023-04-25-21-07-45.jpg");
+    background-size: cover;
+}
+
+.gradient-custom-4 {
+
+    background: linear-gradient(#afc4cb88, #a8dced9b);
+}

@@ -1,0 +1,31 @@
+.arrowFor {
+    animation: moveIta 1s ease-in;
+}
+.arrowFor:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid gray;
+    position:absolute;
+    left: 1px;
+    opacity: 1 !important;
+    animation: moveItnow 0.5s ease-in;
+}
+@keyframes moveItnow {
+    from{
+        left: -20px;
+    }
+    to{
+        left: 0px;
+    }
+}
+@keyframes moveIta {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

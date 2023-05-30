@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap");
+main {
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3), -3px -5px 5px rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+    overflow: hidden;
+}
+
+main div {
+    flex: 1;
+    height: 80%;
+    border: 2px solid #999;
+    border-radius: 10px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    Transition: all ease-in 1s;
+}
+
+main div:first-child .the-front-img {
+    background-image: url("./Carl_Benz.png");
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main div:last-child .the-front-img {
+    background-image: url("./Screenshot 2023-04-28 at 22.56.42.png");
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+main div:first-child {
+    border-radius: 10px 10px 0 0;
+    transform: translateX(-150%);
+    opacity: 0;
+}
+
+main div:last-child {
+    border-radius: 10px 10px 0 0;
+    transform: translateX(150%);
+    opacity: 0;
+}
+
+.slide-in {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+}

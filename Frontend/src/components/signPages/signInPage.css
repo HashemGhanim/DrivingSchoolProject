@@ -1,0 +1,16 @@
+.gradient-custom {
+    background-image: linear-gradient(to right, #9ddceaa5, #12ade1a6), url('./PHOTO-2023-04-25-21-07-45.jpg');
+    background-size: cover;
+}
+
+#mainDiv-sign {
+    border-radius: 20px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-radius: 1rem;
+}
+
+.NavLink {
+    font-weight: bold;
+}

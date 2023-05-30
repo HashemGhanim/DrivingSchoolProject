@@ -1,0 +1,15 @@
+#courseMainWelcome {
+
+    animation: fadeAndMove 1s ease-in;
+}
+
+@keyframes fadeAndMove {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
