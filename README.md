@@ -11,7 +11,7 @@ A closed system similar to the university system, where the student and instruct
 
 Tools used in the project : 
 
-👉 <span style="color:red;">Frontend tools</span>:  React js , react-bootstrap
+👉 Frontend tools:  React js , react-bootstrap
 
 👉 Backend tools:  Node.js / Express , MySql
 
